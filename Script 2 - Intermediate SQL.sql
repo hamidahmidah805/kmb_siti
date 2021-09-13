@@ -1,4 +1,6 @@
-
+					------------------------					
+					--- INTERMEDIATE SQL ---
+					------------------------
 
 -- profit = sales - total_cost
 -- total_profit = profit*quantity
