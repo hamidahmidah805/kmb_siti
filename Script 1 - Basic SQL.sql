@@ -150,6 +150,8 @@ truncate table batch_kmb.midah_users ;
 
 drop table batch_kmb.midah_users ;
 
+-- Materinya sudah selesai, bisa langsung dilakukan dokumentasi dari materi Basic SQL --
+
 
  
 
