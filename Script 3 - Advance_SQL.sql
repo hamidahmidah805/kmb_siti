@@ -75,6 +75,7 @@ group by 1
 order by 2 desc;
 -- kalo pake CTE setelah CTE nya jangan lupa di return mau ngambil apa (select), kalo ngga nanti error
 
+
 ------------------------------------------------
 ---- ATAU DATE_PART DIGANTI JADI DATE_TRUNC ----
 ------------------------------------------------
@@ -132,6 +133,7 @@ from rownumber
 where rn=1;
 -- pake desc karena kalo pake asc untuk tiap negara punya order yang berbeda-beda jumlahnya
 
+
 ---------------
 ---- 1 CTE ----
 ---------------
@@ -182,7 +184,6 @@ left join batch_kmb.order_details_csv odc
 	on olc."order" = odc."order" 
 where segment = 'Home Office'
 group by 1;
-
 
 ;
 
